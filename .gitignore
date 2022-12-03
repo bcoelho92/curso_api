@@ -1,0 +1,4 @@
+# ignora os arquivos com extensões 
+gitignore
+.env
+# ignora quaisquer diretórios chamados "metadata"
