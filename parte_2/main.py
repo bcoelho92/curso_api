@@ -1,12 +1,10 @@
 from fastapi import FastAPI
 
-
 app = FastAPI()
-
 
 @app.get('/')
 async def raiz():
-    return {"msg": "FastAPI vamos ver"}
+    return {"msg": "FastAPI  vamos ver"}
 
 
 if __name__ == '__main__':
@@ -14,3 +12,6 @@ if __name__ == '__main__':
 
     uvicorn.run("main:app", host="0.0.0.0", port=8000,
                 log_level="info", reload=True)
+                
+
+# rodar API direto com Python - python main.py
